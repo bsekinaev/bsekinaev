@@ -1,4 +1,4 @@
-# **Привет, Я Батраз Секинаев** 👋
+# **Batraz Sekinaev** 👋
 
 **Python Backend Developer | Веб-разработчик | Создатель Telegram-ботов**
 
@@ -104,22 +104,17 @@
 
 ---
 
-## 📊 **GitHub статистика**
+## 📊 **GitHub активность**
 
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bsekinaev&show_icons=true&theme=radical&hide_title=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bsekinaev&layout=compact&theme=radical&langs_count=6)
+### Статистика и достижения
+<div align="left">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=bsekinaev&theme=radical&date_format=j%20M%5B%20Y%5D)
+![Profile Stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bsekinaev&theme=github)
+![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bsekinaev&theme=github)
+![Repo Stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bsekinaev&theme=github)
+![GitHub Streak](https://streak-stats.demolab.com/?user=bsekinaev&theme=default)
 
 </div>
-
----
-
-## 🏆 **Достижения на GitHub**
-
-![Pull Shark](https://github-profile-trophy.vercel.app/?username=bsekinaev&theme=radical&no-frame=true&column=4&margin-w=15&margin-h=15&rank=SECRET,SSS,SS,S,AAA,AA,A,B)
 
 ---
 
