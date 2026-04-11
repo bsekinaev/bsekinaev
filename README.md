@@ -2,7 +2,7 @@
 
 **Python Backend Developer | Веб-разработчик | Создатель Telegram-ботов**
 
-[![Telegram](https://img.shields.io/badge/Telegram-@kiradobri-0088cc?style=flat&logo=telegram)](https://t.me/kiradobri)
+[![Telegram](https://img.shields.io/badge/Telegram-@bsekinaev-0088cc?style=flat&logo=telegram)](https://t.me/bsekinaev)
 [![Email](https://img.shields.io/badge/Email-bsekinaev@ya.ru-red?style=flat&logo=mail.ru)](mailto:bsekinaev@ya.ru)
 [![GitHub](https://img.shields.io/badge/GitHub-bsekinaev-black?style=flat&logo=github)](https://github.com/bsekinaev)
 
@@ -19,6 +19,10 @@
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
+### **Асинхронное программирование**
+![AsyncIO](https://img.shields.io/badge/AsyncIO-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![aiohttp](https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge&logo=aiohttp&logoColor=white)
+
 ### **Базы данных**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
@@ -29,8 +33,9 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-### **DevOps & Tools**
+### **DevOps & Инфраструктура**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Telegram API](https://img.shields.io/badge/Telegram_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
@@ -119,11 +124,11 @@
 ---
 
 ## 📚 **Чему я сейчас учусь**
-- **FastAPI** для создания современных API
-- **Docker** и контейнеризация приложений
+- **FastAPI** для создания современных API (продвинутый уровень)
+- **Kubernetes** – оркестрация контейнеров после Docker Compose
 - **Алгоритмы и структуры данных** на LeetCode
-- **Асинхронное программирование** в Python
 - **PostgreSQL оптимизация** и индексы
+- **Микросервисная архитектура** и брокеры сообщений
 
 ---
 
@@ -132,7 +137,7 @@
 <div align="center">
 
 [![Email](https://img.shields.io/badge/📧_bsekinaev@ya.ru-Email-critical?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:bsekinaev@ya.ru)
-[![Telegram](https://img.shields.io/badge/💬_@kiradobri-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/kiradobri)
+[![Telegram](https://img.shields.io/badge/💬_@bsekinaev-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bsekinaev)
 [![GitHub](https://img.shields.io/badge/🐙_bsekinaev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bsekinaev)
 
 </div>
@@ -164,11 +169,12 @@ def my_development_principles():
 ---
 
 ## 🎯 **Цели на ближайшее время**
-- [ ] Создать микро-сервисную архитектуру с Docker Compose
-- [ ] Разработать полноценный REST API с FastAPI и аутентификацией
+- [x] Освоить Docker и Docker Compose
+- [x] Изучить асинхронное программирование на практике
+- [ ] Разработать микросервисное приложение с оркестрацией через Docker Compose
+- [ ] Создать полноценный REST API с FastAPI и аутентификацией
 - [ ] Внести вклад в популярный open-source проект
 - [ ] Пройти 50 задач на LeetCode
-- [ ] Изучить основы Kubernetes для оркестрации контейнеров
 
 ---
 
