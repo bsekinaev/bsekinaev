@@ -1,13 +1,13 @@
-# **Batraz Sekinaev** 👋
+# 👋 Привет, я Батраз!
 
-**Python Backend Developer | Веб-разработчик | Создатель Telegram-ботов**
+### 🎯 **Python Backend Developer**
 
 [![Telegram](https://img.shields.io/badge/Telegram-@bsekinaev-0088cc?style=flat&logo=telegram)](https://t.me/bsekinaev)
 [![Email](https://img.shields.io/badge/Email-bsekinaev@ya.ru-red?style=flat&logo=mail.ru)](mailto:bsekinaev@ya.ru)
 [![GitHub](https://img.shields.io/badge/GitHub-bsekinaev-black?style=flat&logo=github)](https://github.com/bsekinaev)
 
-**📍 Stavropol, Russia**  
-**💼 Открыт к сотрудничеству:** Open-source проектам, стартапам, исследовательским задачам
+📍 **Ставрополь, Россия**
+💼 **Открыт к сотрудничеству:** open-source проекты, стартапы, исследовательские задачи, удалённая работа.
 
 ---
 
@@ -15,136 +15,121 @@
 
 ### **Backend**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### **Асинхронное программирование**
-![AsyncIO](https://img.shields.io/badge/AsyncIO-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![aiohttp](https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge&logo=aiohttp&logoColor=white)
 
 ### **Базы данных**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
-### **Фронтенд/Инструменты**
+
+### **DevOps & Инструменты**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+### **Фронтенд**
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-### **DevOps & Инфраструктура**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Telegram API](https://img.shields.io/badge/Telegram_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ---
 
 ## 🚀 **Мои ключевые проекты**
 
-### **🤖 LinguaBot - Умный бот для изучения английского**
-![Python](https://img.shields.io/badge/Python-3.8+-blue) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-blue) ![Telegram](https://img.shields.io/badge/Telegram_Bot-blue)
+### 🔐 FastAPI Ads API — Сервис объявлений с JWT и ролями
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-**Полнофункциональный Telegram-бот с системой интервальных повторений**
-- Система умного запоминания слов (Spaced Repetition System)
-- PostgreSQL для хранения прогресса пользователей
-- Расширенная статистика и аналитика
-- Поддержка частей речи и категорий слов
+Мощный REST API для сервиса объявлений купли/продажи с аутентификацией, ролями (`USER`/`ADMIN`) и гибкой фильтрацией.
+*   **JWT-аутентификация** с 48-часовым сроком жизни токена
+*   Система ролей: администратор может управлять любым контентом
+*   Поиск объявлений с **пагинацией** и фильтрацией по заголовку, автору и диапазону цен
+*   Асинхронная работа с БД (SQLAlchemy 2.0 + aiosqlite)
+*   Полная документация через Swagger UI
+*   Запуск через Docker
+
+**🔗 [Исходный код →](https://github.com/bsekinaev/FastAPI)**
+
+---
+
+### 🤖 LinguaBot — Умный бот для изучения английского
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
+
+Полнофункциональный Telegram-бот с системой интервальных повторений.
+*   Система умного запоминания слов (Spaced Repetition System)
+*   PostgreSQL для хранения прогресса пользователей
+*   Расширенная статистика и аналитика ответов
+*   Повышение запоминаемости на ~40% в тестовой группе
 
 **🔗 [Исходный код →](https://github.com/bsekinaev/LinguaBot)**
 
 ---
 
-### **❤️ VKinder - Бот для поиска пар в социальной сети VK**
-![Python](https://img.shields.io/badge/Python-3.8+-blue) ![VK API](https://img.shields.io/badge/VK_API-0077FF) ![Team Project](https://img.shields.io/badge/👥_Совместный_проект-orange)
+### ❤️ VKinder — Бот для поиска пар в VK
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![VK API](https://img.shields.io/badge/VK_API-0077FF)
 
-**Коллаборативный проект: интеллектуальный поиск по критериям**
-- Поиск пользователей по возрасту, городу, интересам
-- Работа с VK API и медиа-контентом
-- История поиска и избранное
-- Опыт командной разработки
+Коллаборативный проект: интеллектуальный поиск людей по критериям в VK.
+*   Поиск пользователей по возрасту, городу, интересам
+*   Система мэтчинга и избранного
+*   Опыт командной разработки (ведущий backend-разработчик)
 
 **🔗 [Исходный код →](https://github.com/bsekinaev/VKinder)**
 
 ---
 
-### **📱 UserManager - Веб-приложение для управления пользователями**
-![Flask](https://img.shields.io/badge/Flask-2.3.3-green) ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple) ![SQLite](https://img.shields.io/badge/SQLite-lightgrey)
+### 📱 UserManager — Веб-приложение для управления пользователями
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 
-**Full-stack CRUD приложение с современным интерфейсом**
-- Полный цикл операций (создание, чтение, обновление, удаление)
-- Поиск и фильтрация в реальном времени
-- Валидация данных на клиенте и сервере
-- AJAX-обновления без перезагрузки страницы
+Full-stack CRUD приложение с современным интерфейсом.
+*   Поиск и фильтрация в реальном времени
+*   AJAX-обновления без перезагрузки страницы
+*   Валидация данных на клиенте и сервере
 
 **🔗 [Исходный код →](https://github.com/bsekinaev/UserManager)**
 
 ---
 
-### **🖼️ Cat & Dog Image Backup - Автоматизация загрузки изображений**
-![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Yandex.Disk](https://img.shields.io/badge/Yandex.Disk_API-red) ![Requests](https://img.shields.io/badge/Requests-green)
+### 📰 Habr Parser — Многопоточный парсер статей
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-44CC11)
 
-**Инструмент для резервного копирования в облачное хранилище**
-- Работа с API Яндекс.Диска и внешних сервисов
-- Загрузка изображений кошек (cataas.com) и собак (dog.ceo)
-- Обработка ошибок и логирование операций
-- Сохранение метаинформации в JSON
-
-**🔗 [Исходный код →](https://github.com/bsekinaev/cat_and_dog)**
-
----
-
-### **🔍 Habr Parser - Парсер статей с Habr**
-![Python](https://img.shields.io/badge/Python-3.8+-blue) ![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-44CC11) ![Requests](https://img.shields.io/badge/Requests-1572B6)
-
-**Инструмент для сбора и анализа технических статей**
-- Парсинг статей и метаданных с платформы Habr
-- Структурирование информации и категоризация
-- Экспорт данных в различные форматы
-- Гибкая настройка фильтров поиска
+Инструмент для сбора и структурирования технических статей с Хабра.
+*   Обрабатывает до 500 статей за один запуск
+*   Сокращает время сбора данных с десятков минут до секунд
 
 **🔗 [Исходный код →](https://github.com/bsekinaev/Habr_parser)**
 
 ---
 
-## 📊 **GitHub активность**
+### 📚 Другие проекты
+*   **aiohttp-ads** — Асинхронное REST API с JWT на aiohttp (ещё один пример реализации) **[Ссылка](https://github.com/bsekinaev/aiohttp-ads)**
+*   **Cat & Dog Image Backup** — Автоматический бэкап изображений на Яндекс.Диск **[Ссылка](https://github.com/bsekinaev/cat_and_dog)**
+*   **Portfolio** — Сайт-визитка с неоновым дизайном и живым API **[Ссылка](https://github.com/bsekinaev/portfolio)**
 
-### Статистика и достижения
-<div align="left">
+---
+
+## 📊 **GitHub Статистика**
+
+<div align="center">
 
 ![Profile Stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bsekinaev&theme=github)
 ![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bsekinaev&theme=github)
-![Repo Stats](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=bsekinaev&theme=github)
 ![GitHub Streak](https://streak-stats.demolab.com/?user=bsekinaev&theme=default)
 
 </div>
 
 ---
 
-## 📚 **Чему я сейчас учусь**
-- **FastAPI** для создания современных API (продвинутый уровень)
-- **Kubernetes** – оркестрация контейнеров после Docker Compose
-- **Алгоритмы и структуры данных** на LeetCode
-- **PostgreSQL оптимизация** и индексы
-- **Микросервисная архитектура** и брокеры сообщений
-
----
-
-## 📫 **Как со мной связаться**
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/📧_bsekinaev@ya.ru-Email-critical?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:bsekinaev@ya.ru)
-[![Telegram](https://img.shields.io/badge/💬_@bsekinaev-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bsekinaev)
-[![GitHub](https://img.shields.io/badge/🐙_bsekinaev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bsekinaev)
-
-</div>
-
----
-
 ## 💡 **Мои принципы разработки**
+
 ```python
 def my_development_principles():
     return {
@@ -157,56 +142,16 @@ def my_development_principles():
 ```
 
 ---
+
+## 📫 **Связь со мной**
+
+
+---
 <div align="center">
 
-### ⭐ **Если вам нравятся мои проекты, поставьте звездочку на репозиториях!**
-### 🔄 **Открыт к сотрудничеству и новым вызовам**
 
-![Visitor Count](https://komarev.com/ghpvc/?username=bsekinaev&color=blueviolet)
-
-</div>
-
----
-
-## 🎯 **Цели на ближайшее время**
-- [x] Освоить Docker и Docker Compose
-- [x] Изучить асинхронное программирование на практике
-- [ ] Разработать микросервисное приложение с оркестрацией через Docker Compose
-- [ ] Создать полноценный REST API с FastAPI и аутентификацией
-- [ ] Внести вклад в популярный open-source проект
-- [ ] Пройти 50 задач на LeetCode
-
----
-
-## 📈 **Статус проектов**
-
-| Проект | Статус | Последнее обновление |
-|--------|--------|----------------------|
-| LinguaBot | 🟢 Активно развивается | Январь 2026 |
-| VKinder | 🟢 Активно развивается | Январь 2026 |
-| UserManager | 🟡 Стабильная версия | Декабрь 2025 |
-| Cat & Dog Backup | 🟡 Стабильная версия | Декабрь 2025 |
-| Habr Parser | 🟡 Стабильная версия | Ноябрь 2025 |
-
----
-
-## 🤝 **Сотрудничество**
-
-Открыт к:
-- Совместной работе над open-source проектами
-- Участию в хакатонах и конкурсах
-- Консультациям по Python и веб-разработке
-- Менторству для начинающих разработчиков
-- Удаленной работе в интересных проектах
-
----
-
-<div align="center">
-
-*"Лучший код — это не просто работающий код, а код, который можно поддерживать и развивать"*
+[![Email](https://img.shields.io/badge/bsekinaev@ya.ru-Email-critical?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:bsekinaev@ya.ru)
+[![Telegram](https://img.shields.io/badge/@bsekinaev-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bsekinaev)
+[![GitHub](https://img.shields.io/badge/bsekinaev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bsekinaev)
 
 </div>
-
----
-
-**📌 P.S.** Всегда открыт к интересным проектам и коллаборациям. Пишите в Telegram или на почту — обсудим любые идеи!
