@@ -30,6 +30,8 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-ADFF2F?style=for-the-badge&logo=ruff&logoColor=black)
 
 ### **Фронтенд**
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -39,6 +41,25 @@
 ---
 
 ## 🚀 **Мои ключевые проекты**
+
+### 🤖 Code Review Bot — Автоматический ревьюер Python-кода в Pull Requests
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-ADFF2F?style=flat&logo=ruff&logoColor=black)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)
+
+Микросервис, который автоматически проверяет Python-код при создании или обновлении Pull Request на GitHub.
+*   **Анализ только изменённых строк** — не спамит старыми предупреждениями
+*   **Гибкая настройка** через `.codereview.yml` в репозитории клиента
+*   **CI/CD** — автоматический деплой на VPS через GitHub Actions после тестов
+*   **Контейнеризация** — Docker Compose с монтированием ключей и переменных
+*   **Безопасность** — вебхуки с HMAC-подписью, GitHub App с JWT
+*   **Уведомления** — результаты ревью дублируются в Telegram
+
+**🔗 [Исходный код →](https://github.com/bsekinaev/code-review-bot)**
+
+---
 
 ### 🔐 FastAPI Ads API — Сервис объявлений с JWT и ролями
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
