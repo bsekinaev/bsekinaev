@@ -45,24 +45,28 @@
 
 ## 🚀 **Мои ключевые проекты**
 
-### 🛒 Retail Procurement API — автоматизация закупок (дипломный проект)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/DRF-red?style=flat)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+### 🛒 Retail Procurement API — автоматизация закупок для розничной сети
+![Django](https://img.shields.io/badge/Django-4.2-092E20?style=flat&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/DRF-3.14-red?style=flat)
+![Celery](https://img.shields.io/badge/Celery-5.3-37814A?style=flat&logo=celery&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=flat&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-✓-2496ED?style=flat&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-316192?style=flat&logo=postgresql&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?style=flat&logo=githubactions&logoColor=white)
+![OAuth](https://img.shields.io/badge/OAuth-2.0-3C3C3C?style=flat)
 
-Backend для автоматизации закупок в розничной сети с каталогом, корзиной, заказами.
-*   **JWT-авторизация** с подтверждением email
-*   Бизнес-логика с **защитой от race condition** (select_for_update)
-*   **Асинхронная отправка** уведомлений и импорт товаров через Celery
-*   **Права доступа** (IsSupplier, IsAdmin) и админские эндпоинты
-*   **CI/CD** — GitHub Actions запускает тесты при пуше в main
-*   **Контейнеризация** — Docker Compose (PostgreSQL, Redis, Django, Celery)
-*   Экспорт товаров в CSV, пагинация, поиск, Swagger‑документация
+Дипломный проект расширенного курса «Python‑разработчик» от Нетологии.  
+Backend‑приложение для автоматизации закупок в розничной сети с полным циклом CI/CD и мониторингом.
 
-**🔗 [Исходный код →](https://github.com/bsekinaev/retail-procurement)**
+*   **Регистрация и авторизация** по JWT + вход через Google/GitHub (OAuth 2.0) с асинхронной загрузкой аватаров через Celery.
+*   **Сервисный слой** для корзины и заказов, защита от гонок (`select_for_update`, `transaction.atomic`).
+*   **Асинхронные задачи** Celery: email‑уведомления, импорт товаров из YAML, обработка аватаров (django‑imagekit).
+*   **Кэширование каталога** через Redis, мониторинг ошибок (Glitchtip / Sentry SDK).
+*   **Полная контейнеризация** Docker Compose (PostgreSQL, Redis, Celery worker, Django), healthcheck.
+*   **Интеграционные тесты** (pytest + factory‑boy), GitHub Actions, Swagger/ReDoc, админка Django Baton.
+*   **Фронтенд** на Bootstrap 5 (каталог, корзина, заказы, соц‑вход).
+
+**🔗 [Репозиторий проекта →](https://github.com/bsekinaev/retail-procurement)**
 
 ### 🤖 Code Review Bot — Автоматический ревьюер Python-кода в Pull Requests
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
