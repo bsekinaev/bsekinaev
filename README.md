@@ -1,4 +1,4 @@
-# 👋 Привет, я Батраз!
+# 👋 Привет, Я Батраз Секинаев!
 
 ### 🎯 **Python Backend Developer**
 
@@ -10,6 +10,7 @@
 💼 **Открыт к сотрудничеству:** open-source проекты, стартапы, коммерческая разработка, удалённая работа.
 
 ---
+
 
 ## 🛠 **Технологический стек**
 
@@ -69,7 +70,7 @@ Backend‑приложение для автоматизации закупок 
 *   **Интеграционные тесты** (pytest + factory‑boy), GitHub Actions, Swagger/ReDoc, админка Django Baton.
 *   **Фронтенд** на Bootstrap 5 (каталог, корзина, заказы, соц‑вход).
 
-**🔗 [Исходный код →](https://github.com/bsekinaev/retail-procurement)**
+**🔗 [Репозиторий проекта →](https://github.com/bsekinaev/retail-procurement)**
 
 ### 🤖 Code Review Bot — Автоматический ревьюер Python-кода в Pull Requests
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
