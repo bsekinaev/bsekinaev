@@ -6,6 +6,8 @@
 [![Email](https://img.shields.io/badge/Email-bsekinaev@ya.ru-red?style=flat-square&logo=mail.ru)](mailto:bsekinaev@ya.ru)
 [![GitHub](https://img.shields.io/badge/GitHub-bsekinaev-181717?style=flat-square&logo=github)](https://github.com/bsekinaev)
 [![HH.ru](https://img.shields.io/badge/Резюме-на%20HH-black?style=flat-square&logo=headhunter)](https://hh.ru/resume/f592f1daff0ca097cb0039ed1f464856526463)
+
+---
 📍 Ставрополь, Россия | 🌍 Открыт к удалённой работе (full-time) | 💼 Ищу позицию Python Backend / AI-автоматизации
 
 ---
