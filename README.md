@@ -1,194 +1,166 @@
-# 👋 Привет, Я Батраз Секинаев!
+# 👋 Привет, я Батраз Секинаев
 
-### 🎯 **Python Backend Developer**
+### 🐍 Python Backend Developer | Django • FastAPI • Production-ready решения
 
-[![Telegram](https://img.shields.io/badge/Telegram-@bsekinaev-0088cc?style=flat&logo=telegram)](https://t.me/bsekinaev)
-[![Email](https://img.shields.io/badge/Email-bsekinaev@ya.ru-red?style=flat&logo=mail.ru)](mailto:bsekinaev@ya.ru)
-[![GitHub](https://img.shields.io/badge/GitHub-bsekinaev-black?style=flat&logo=github)](https://github.com/bsekinaev)
-
-📍 **Ставрополь, Россия**
-💼 **Открыт к сотрудничеству:** open-source проекты, стартапы, коммерческая разработка, удалённая работа.
-
----
-
-
-## 🛠 **Технологический стек**
-
-### **Backend**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/DRF-red?style=for-the-badge)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
-
-### **Базы данных**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-
-### **DevOps & Инструменты**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-
-### **Тестирование**
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Factory Boy](https://img.shields.io/badge/Factory_Boy-FF6F00?style=for-the-badge)
-
-### **Аутентификация**
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![OAuth](https://img.shields.io/badge/OAuth-2.0-3C3C3C?style=for-the-badge)
-
-### **Дополнительно**
-![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-34A853?style=for-the-badge&logo=google&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+[![Telegram](https://img.shields.io/badge/Telegram-@bsekinaev-0088cc?style=flat-square&logo=telegram)](https://t.me/bsekinaev)
+[![Email](https://img.shields.io/badge/Email-bsekinaev@ya.ru-red?style=flat-square&logo=mail.ru)](mailto:bsekinaev@ya.ru)
+[![GitHub](https://img.shields.io/badge/GitHub-bsekinaev-181717?style=flat-square&logo=github)](https://github.com/bsekinaev)
+[![HH.ru](https://img.shields.io/badge/Резюме-на%20HH-black?style=flat-square&logo=headhunter)](https://hh.ru/resume/f592f1daff0ca097cb0039ed1f464856526463)
+📍 Ставрополь, Россия | 🌍 Открыт к удалённой работе (full-time) | 💼 Ищу позицию Python Backend / AI-автоматизации
 
 ---
 
-## 🚀 **Мои ключевые проекты**
+## 🗂️ Навигация
+- [🎯 Обо мне](#-обо-мне)
+- [🛠 Стек](#-технологический-стек)
+- [🚀 Проекты](#-ключевые-проекты)
+- [📬 Контакты](#-давайте-работать-вместе)
 
-### 🛒 Retail Procurement API — автоматизация закупок для розничной сети
-![Django](https://img.shields.io/badge/Django-4.2-092E20?style=flat&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/DRF-3.14-red?style=flat)
-![Celery](https://img.shields.io/badge/Celery-5.3-37814A?style=flat&logo=celery&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=flat&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-✓-2496ED?style=flat&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-316192?style=flat&logo=postgresql&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?style=flat&logo=githubactions&logoColor=white)
+---
 
-Дипломный проект расширенного курса «Python‑разработчик» от Нетологии.  
-Backend‑приложение для автоматизации закупок в розничной сети с полным циклом CI/CD и мониторингом.
+## 🎯 Обо мне
 
-*   **Сервисный слой** для корзины и заказов, защита от гонок (`select_for_update`, `transaction.atomic`).
-*   **Асинхронные задачи** Celery: email‑уведомления, импорт товаров из YAML, обработка аватаров (django‑imagekit).
-*   **Регистрация и авторизация** по JWT + вход через Google/GitHub (OAuth 2.0) с асинхронной загрузкой аватаров.
-*   **Кэширование каталога** через Redis, мониторинг ошибок (Glitchtip / Sentry SDK).
-*   **Полная контейнеризация** Docker Compose (PostgreSQL, Redis, Celery worker, Django), healthcheck.
-*   **Интеграционные тесты** (pytest + factory‑boy), GitHub Actions, Swagger/ReDoc, админка Django Baton.
-*   **Фронтенд** на Bootstrap 5 (каталог, корзина, заказы, соц‑вход).
+Python-разработчик с фокусом на **надёжные backend-сервисы**. Создаю решения, которые работают в production: с тестами, мониторингом, CI/CD и продуманной архитектурой.
 
-**🔗 [Репозиторий проекта →](https://github.com/bsekinaev/retail-procurement)**
+**Что я приношу в команду:**
+- ✅ Опыт проектирования сложной бизнес-логики: транзакции, защита от race condition, ролевая модель
+- ✅ Практику асинхронной обработки задач (Celery + Redis) и оптимизации запросов к БД
+- ✅ Привычку писать тестируемый код и автоматизировать рутину (GitHub Actions, Docker)
+- ✅ Понимание полного цикла: от проектирования API до деплоя и мониторинга
 
-### 🤖 Code Review Bot — Автоматический ревьюер Python-кода в Pull Requests
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Ruff](https://img.shields.io/badge/Ruff-ADFF2F?style=flat&logo=ruff&logoColor=black)
-![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)
+---
 
-Микросервис, который автоматически проверяет Python-код при создании или обновлении Pull Request на GitHub.
-*   **Анализ только изменённых строк** — не спамит старыми предупреждениями
-*   **Гибкая настройка** через `.codereview.yml` в репозитории клиента
-*   **CI/CD** — автоматический деплой на VPS через GitHub Actions после тестов
-*   **Безопасность** — вебхуки с HMAC-подписью, GitHub App с JWT
+## 🛠 Технологический стек
 
-**🔗 [Исходный код →](https://github.com/bsekinaev/code-review-bot)**
+**Backend:** ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-4.2-092E20?style=flat-square&logo=django) ![DRF](https://img.shields.io/badge/DRF-3.14-red?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask)
+
+**Базы данных:** ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite)
+
+**Асинхронность:** ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery)
+
+**DevOps:** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker) ![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux)
+
+**Тесты:** ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest)
+
+**API & Auth:** ![JWT](https://img.shields.io/badge/JWT-black?style=flat-square&logo=jsonwebtokens) ![OAuth](https://img.shields.io/badge/OAuth-2.0-3C3C3C?style=flat-square) ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger)
+
+**Мониторинг:** ![Glitchtip](https://img.shields.io/badge/Glitchtip-Sentry_SDK-362D59?style=flat-square&logo=sentry)
+
+---
+
+## 🚀 Ключевые проекты
+
+### 🛒 Retail Procurement API — Backend для автоматизации закупок
+[![Django](https://img.shields.io/badge/Django-4.2-092E20?style=flat-square)](https://www.djangoproject.com/)
+[![CI](https://github.com/bsekinaev/retail-procurement/actions/workflows/tests.yml/badge.svg)](https://github.com/bsekinaev/retail-procurement/actions)
+
+> Дипломный проект курса «Python-разработчик» (Нетология). Полноценный backend для розничной сети с OAuth, очередями задач и мониторингом.
+
+**Ключевые решения:**
+- 🔐 JWT + OAuth 2.0 (Google/GitHub) с асинхронной загрузкой аватаров
+- 🛡️ `select_for_update` + `transaction.atomic` против гонок при заказах
+- ⚡ Кэширование каталога в Redis, оптимизация ORM-запросов
+- 📨 Celery для email, импорта YAML-прайсов и обработки изображений
+- 🧪 Интеграционные тесты (pytest), CI/CD, Swagger-документация
+- 🐳 Docker Compose (PostgreSQL, Redis, worker, Django) с healthcheck
+
+**🔗 [Посмотреть код →](https://github.com/bsekinaev/retail-procurement)**
+
+---
+
+### 🤖 Code Review Bot — Авто-ревьюер Python-кода в GitHub PR
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-✓-2496ED?style=flat-square)](https://www.docker.com/)
+[![CI](https://github.com/bsekinaev/code-review-bot/actions/workflows/deploy.yml/badge.svg)](https://github.com/bsekinaev/code-review-bot/actions)
+
+> GitHub App, который автоматически проверяет код в Pull Request и оставляет комментарии только по изменённым строкам.
+
+**Особенности:**
+- 🎯 Парсинг unified diff → фильтрация предупреждений по новым строкам
+- ⚙️ Конфигурация через `.codereview.yml` в репозитории клиента
+- 🔒 Вебхуки с HMAC-подписью, GitHub App с JWT
+- 🚀 Авто-деплой на VPS через GitHub Actions после тестов
+
+**🔗 [Посмотреть код →](https://github.com/bsekinaev/code-review-bot)**
+
+---
 
 ### 🆙 Upscale Service — Асинхронный сервис апскейлинга изображений
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square)](https://flask.palletsprojects.com/)
+[![Celery](https://img.shields.io/badge/Celery-✓-37814A?style=flat-square)](https://docs.celeryq.dev/)
 
-Сервис для увеличения разрешения изображений с помощью нейросети EDSR.
-*   **Асинхронная обработка** через Celery + Redis без сохранения на диск
-*   Модель загружается **единожды** и не перечитывается с диска
+> Микросервис для увеличения разрешения изображений через нейросеть EDSR с очередью задач.
 
-**🔗 [Исходный код →](https://github.com/bsekinaev/upscale_service)**
+**Технические решения:**
+- 🔄 Celery + Redis для фоновой обработки без блокировки
+- 💾 Модель загружается один раз, изображения — потоково
+- 🧪 Юнит-тесты для критических компонентов
 
-### 🔐 FastAPI Ads API — Сервис объявлений с JWT и ролями
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-
-REST API с аутентификацией, ролями и гибкой фильтрацией.
-*   **JWT-аутентификация** и система ролей (USER/ADMIN)
-*   Поиск объявлений с **пагинацией** и фильтрацией
-
-**🔗 [Исходный код →](https://github.com/bsekinaev/FastAPI)**
-
-### 🤖 LinguaBot — Умный бот для изучения английского
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-
-Telegram-бот с системой интервальных повторений.
-*   Повышение запоминаемости на ~40% в тестовой группе
-
-**🔗 [Исходный код →](https://github.com/bsekinaev/LinguaBot)**
-
-### ❤️ VKinder — Бот для поиска пар в VK
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![VK API](https://img.shields.io/badge/VK_API-0077FF)
-
-Интеллектуальный поиск людей по критериям. Ведущий backend-разработчик в команде из 3 человек.
-
-**🔗 [Исходный код →](https://github.com/bsekinaev/VKinder)**
-
-### 📱 UserManager — Веб-приложение для управления пользователями
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-
-Full-stack CRUD приложение с AJAX-обновлениями и валидацией.
-
-**🔗 [Исходный код →](https://github.com/bsekinaev/UserManager)**
-
-### 📰 Habr Parser — Многопоточный парсер статей
-![Python](https://img.shields.io/badge/Python-3.8+-blue)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-44CC11)
-
-Инструмент для сбора и структурирования технических статей с Хабра. Обрабатывает до 500 статей за один запуск.
-
-**🔗 [Исходный код →](https://github.com/bsekinaev/Habr_parser)**
+**🔗 [Посмотреть код →](https://github.com/bsekinaev/upscale_service)**
 
 ---
 
-### 📚 Другие проекты
-*   **Org Structure API** — REST API организационной структуры на FastAPI + PostgreSQL [Ссылка](https://github.com/bsekinaev/org-structure-api)
-*   **aiohttp-ads** — Асинхронное REST API с JWT на aiohttp [Ссылка](https://github.com/bsekinaev/aiohttp-ads)
-*   **Cat & Dog Image Backup** — Автоматический бэкап изображений на Яндекс.Диск [Ссылка](https://github.com/bsekinaev/cat_and_dog)
-*   **Portfolio** — Сайт-визитка с неоновым дизайном и живым API [Ссылка](https://github.com/bsekinaev/portfolio)
+### 🏢 Org Structure API — REST API организационной структуры
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square)](https://fastapi.tiangolo.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-✓-316192?style=flat-square)](https://www.postgresql.org/)
 
----
-## 🎓 **Образование и сертификаты**
-- **Нетология** – расширенный курс «Python-разработчик» (2026)
-- **Ставропольский региональный многопрофильный колледж** – Программирование в компьютерных системах (2017)
+> API для управления иерархией департаментов с защитой от циклических ссылок и каскадным удалением.
 
----
-## 📚 **Чему я сейчас учусь**
-- **Kubernetes** – оркестрация контейнеров после Docker Compose
-- **Алгоритмы и структуры данных** на LeetCode
-- **PostgreSQL оптимизация** и индексы
-- **Микросервисная архитектура** и брокеры сообщений
+**Ключевые фичи:**
+- 🌳 Защита от циклов при перемещении департаментов
+- 🗑️ Каскадное удаление с зависимостями
+- 🧪 Полный набор тестов (factory-boy)
+
+**🔗 [Посмотреть код →](https://github.com/bsekinaev/org-structure-api)**
 
 ---
 
-## 🎯 **Мои цели на ближайшее время**
-- [x] Освоить Docker и Docker Compose
-- [x] Изучить асинхронное программирование на практике
-- [x] Создать полноценный REST API с FastAPI и аутентификацией
-- [x] Разработать микросервисное приложение с оркестрацией через Docker Compose
+## 📦 Другие проекты
+
+| Проект | Описание | Стек |
+|--------|----------|------|
+| **[LinguaBot](https://github.com/bsekinaev/LinguaBot)** | Telegram-бот для изучения английского с интервальными повторениями | Python, PostgreSQL, Telegram API |
+| **[VKinder](https://github.com/bsekinaev/VKinder)** | Бот для поиска пар в ВКонтакте по критериям | Python, VK API, SQLAlchemy |
+| **[FastAPI Ads API](https://github.com/bsekinaev/FastAPI)** | CRUD API объявлений с ролями и пагинацией | FastAPI, JWT, SQLite |
+| **[Habr Parser](https://github.com/bsekinaev/Habr_parser)** | Многопоточный парсер статей с Хабра | Python, BeautifulSoup, threading |
+
+👉 [Посмотреть все репозитории →](https://github.com/bsekinaev?tab=repositories)
+
+---
+
+## 📚 Сейчас изучаю и внедряю
+
+- 🧠 **PostgreSQL**: углублённая оптимизация запросов, планировщик, индексы
+- ☸️ **Kubernetes**: оркестрация контейнеров после Docker Compose
+- 🏗️ **Микросервисы**: паттерны взаимодействия, брокеры сообщений (RabbitMQ/Kafka)
+- 🤖 **AI-интеграции**: работа с LLM-апи, RAG-подходы, векторные БД
+
+---
+
+## 🎯 Мои цели на ближайшее время
+
+- [x] Освоить Docker и CI/CD (GitHub Actions)
 - [x] Пройти 50 задач на LeetCode
-- [ ] Внести вклад в популярный open-source проект
-- [ ] Пройти сертификацию по облачным технологиям (AWS/GCP)
+- [x] Получить диплом Нетологии (расширенный курс Python-разработчик)
+- [ ] Опубликовать технический разбор Retail Procurement API на Хабре
+- [ ] Добавить e2e-тесты в ключевые проекты
+- [ ] Реализовать AI-проект с LLM-интеграцией для портфолио
+- [ ] Внести вклад в open-source (Django/DRF или FastAPI)
 
 ---
 
-## 📊 **GitHub Статистика**
+## 📊 GitHub Статистика
 
 <div align="center">
 
 ![Profile Stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bsekinaev&theme=github)
-![Most Used Languages](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=bsekinaev&theme=github)
 ![GitHub Streak](https://streak-stats.demolab.com/?user=bsekinaev&theme=default)
 
 </div>
 
 ---
 
-## 💡 **Мои принципы разработки**
+## 💡 Мои принципы разработки
 
 ```python
 def my_development_principles():
@@ -203,15 +175,16 @@ def my_development_principles():
 
 ---
 
-## 📫 **Связь со мной**
+## 📬 Давайте работать вместе!
 
+Я ищу **удалённую позицию Python Backend Developer** (full-time), где смогу:
+- Разрабатывать и масштабировать backend-сервисы
+- Работать с интересными техническими задачами и современным стеком
+- Расти как инженер в сильной команде
 
----
-<div align="center">
+🎯 **Зарплатные ожидания:** 100–150 тыс. ₽ (на испытательный срок — 80–100 тыс. ₽)
 
-
-[![Email](https://img.shields.io/badge/bsekinaev@ya.ru-Email-critical?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:bsekinaev@ya.ru)
-[![Telegram](https://img.shields.io/badge/@bsekinaev-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bsekinaev)
-[![GitHub](https://img.shields.io/badge/bsekinaev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bsekinaev)
-
-</div>
+### 📩 Свяжитесь со мной:
+- 💬 **Telegram:** [@bsekinaev](https://t.me/bsekinaev) *(предпочтительный способ связи)*
+- ✉️ **Email:** [bsekinaev@ya.ru](mailto:bsekinaev@ya.ru)
+- 💼 **Резюме:** [HH.ru](https://hh.ru/resume/f592f1daff0ca097cb0039ed1f464856526463) | [Хабр Карьера](https://career.habr.com/bsekinaev)
