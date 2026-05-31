@@ -119,12 +119,13 @@ Python-разработчик с фокусом на **надёжные backend-
 
 ## 📦 Другие проекты
 
-| Проект | Описание | Стек |
-|--------|----------|------|
-| **[LinguaBot](https://github.com/bsekinaev/LinguaBot)** | Telegram-бот для изучения английского с интервальными повторениями | Python, PostgreSQL, Telegram API |
-| **[VKinder](https://github.com/bsekinaev/VKinder)** | Бот для поиска пар в ВКонтакте по критериям | Python, VK API, SQLAlchemy |
-| **[FastAPI Ads API](https://github.com/bsekinaev/FastAPI)** | CRUD API объявлений с ролями и пагинацией | FastAPI, JWT, SQLite |
-| **[Habr Parser](https://github.com/bsekinaev/Habr_parser)** | Многопоточный парсер статей с Хабра | Python, BeautifulSoup, threading |
+| Проект                                                        | Описание | Стек |
+|---------------------------------------------------------------|----------|------|
+| **[UserManager](https://github.com/bsekinaev/UserManager)** | CRUD-приложение для управления пользователями. Задача для Digital агентства «Победа» (Нетология). **Production-ready**: Docker, pytest (~98%), CI/CD, Gunicorn, healthcheck. [Release v2.0.0](https://github.com/bsekinaev/UserManager/releases/tag/v2.0.0) | Flask, Vanilla JS, Docker, pytest, GitHub Actions |
+| **[LinguaBot](https://github.com/bsekinaev/LinguaBot)**       | Telegram-бот для изучения английского с интервальными повторениями | Python, PostgreSQL, Telegram API |
+| **[VKinder](https://github.com/bsekinaev/VKinder)**           | Бот для поиска пар в ВКонтакте по критериям | Python, VK API, SQLAlchemy |
+| **[FastAPI Ads API](https://github.com/bsekinaev/FastAPI)**   | CRUD API объявлений с ролями и пагинацией | FastAPI, JWT, SQLite |
+| **[Habr Parser](https://github.com/bsekinaev/Habr_parser)**   | Многопоточный парсер статей с Хабра | Python, BeautifulSoup, threading |
 
 👉 [Посмотреть все репозитории →](https://github.com/bsekinaev?tab=repositories)
 
@@ -190,3 +191,5 @@ def my_development_principles():
 - 💬 **Telegram:** [@bsekinaev](https://t.me/bsekinaev) *(предпочтительный способ связи)*
 - ✉️ **Email:** [bsekinaev@ya.ru](mailto:bsekinaev@ya.ru)
 - 💼 **Резюме:** [HH.ru](https://hh.ru/resume/f592f1daff0ca097cb0039ed1f464856526463) | [Хабр Карьера](https://career.habr.com/bsekinaev)
+
+---
