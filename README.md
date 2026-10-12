@@ -7,7 +7,7 @@
 FastAPI · Django/DRF · PostgreSQL · Redis · Celery · Docker
 
 [![Telegram](https://img.shields.io/badge/Telegram-@bsekinaev-0088cc?style=flat-square&logo=telegram)](https://t.me/bsekinaev)
-[![Email](https://img.shields.io/badge/Email-bsekinaev%40ya.ru-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:bsekinaev@ya.ru)
+[![Email](https://img.shields.io/badge/Email-bsekinaev%40ya.ru-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:b@sekinaev.ru)
 [![HH.ru](https://img.shields.io/badge/Резюме-HH.ru-E1011C?style=flat-square)](https://hh.ru/resume/f592f1daff0ca097cb0039ed1f464856526463)
 
 Ставрополь · удалённая работа · открыт к предложениям
