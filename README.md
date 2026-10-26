@@ -2,75 +2,69 @@
 
 # Батраз Секинаев
 
-### Python Backend Developer
+### Python Backend Developer · Backend Integrations
 
-FastAPI · Django/DRF · PostgreSQL · Redis · Celery · Docker
+Python · FastAPI · Django/DRF · PostgreSQL · Redis · Celery · Docker · pytest
 
 [![Telegram](https://img.shields.io/badge/Telegram-@bsekinaev-0088cc?style=flat-square&logo=telegram)](https://t.me/bsekinaev)
-[![Email](https://img.shields.io/badge/Email-b%40sekinaev.ru-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:b@sekinaev.ru)
-[![HH.ru](https://img.shields.io/badge/Резюме-HH.ru-E1011C?style=flat-square)](https://hh.ru/resume/f592f1daff0ca097cb0039ed1f464856526463)
+[![Email](https://img.shields.io/badge/Email-bsekinaev%40ya.ru-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:bsekinaev@ya.ru)
+[![HH.ru](https://img.shields.io/badge/Resume-HH.ru-E1011C?style=flat-square)](https://hh.ru/resume/f592f1daff0ca097cb0039ed1f464856526463)
+[![Habr Career](https://img.shields.io/badge/Profile-Habr%20Career-6799C6?style=flat-square)](https://career.habr.com/bsekinaev)
 
-Ставрополь · удалённая работа · открыт к предложениям
+Ставрополь · рассматриваю удалённую работу
 
 </div>
 
 ## Обо мне
 
-Python Backend Developer с фокусом на REST API, асинхронные сервисы и интеграции с внешними системами. В собственных и учебно-прикладных проектах работаю с FastAPI, Django/DRF, PostgreSQL, SQLAlchemy, Redis, Celery и Docker.
+Python Backend Developer. Разрабатываю REST API, интеграции внешних сервисов и фоновые обработчики. Основной стек: FastAPI, Django/DRF, PostgreSQL, SQLAlchemy, Redis, Celery, Docker и pytest. Дополнительно работаю с Playwright, webhooks и LLM/RAG.
 
-Реализовывал Telegram- и GitHub-webhook'и, фоновые задачи, транзакционную бизнес-логику, JWT/OAuth2-аутентификацию, интеграции с GigaChat, RAG, тестирование и CI через GitHub Actions.
+**Командный опыт:** стажировка в «Победа Digital» / EGO, **25.06–25.09.2026**. После официального окончания выполнял отдельные проектные задачи; это не заявляется как продление стажировки или постоянное трудоустройство.
 
-Ищу позицию Python Backend Developer в продуктовой команде с практиками code review и автоматизированного тестирования.
+Ищу работу Python Backend Developer (Junior / Junior+). Интересны продуктовые команды, API, надёжные интеграции, тестирование и сопровождение сервисов.
 
-## Основной стек
+## Опыт командной разработки — Победа Digital / EGO
 
-- **Backend:** Python, FastAPI, Django, Django REST Framework, SQLAlchemy, Pydantic
-- **Data:** PostgreSQL, Redis, Alembic, Django ORM
-- **Async:** Celery, asyncio, webhooks, retry/backoff
-- **Quality:** pytest, Ruff, GitHub Actions, OpenAPI
-- **Infrastructure:** Docker, Docker Compose, Linux, Nginx
-- **Integrations:** Telegram Bot API, GitHub API, GigaChat API, JWT, OAuth2
+B2B-платформа для управления репутацией и обработки отзывов.
 
-## Ключевые проекты
+- **Otzovik.com:** интеграция площадки без доступного публичного API: авторизованная браузерная сессия (Playwright), сбор и нормализация отзывов, дедупликация, сохранение данных, миграции и интеграция с существующими процессами платформы. В тестах на реальной площадке проверялись получение отзывов, повторное чтение и публикация ответа.
+- **MAX:** доработка обработки комментариев и редактирования публикаций; работа с webhook-событиями, inline-клавиатурой, режимами MiniApp/Native, защитой от дублирования, регрессионным тестированием и совместимостью с существующим поведением.
+- **Universal Reviews Connector (POC):** компоненты архитектуры AI Discovery → типизированный Connector Manifest / Operational Profile → универсальный детерминированный Runtime. Для Ozon Seller подтверждён read-only маршрут получения списка и деталей отзывов с UUID-корреляцией. Полная стабильность и сквозная приёмка всего POC **не заявляются**.
 
-### [TATTOTOYOU](https://github.com/bsekinaev/tattotoyou) — AI-ассистент для тату-студии
+Работал в существующей кодовой базе с Git-ветками, слияниями, миграциями, unit/contract/regression и LIVE-проверками. Исходный код EGO закрыт; внутренние исходники и доступы не публикую.
 
-Telegram-ассистент для обработки типовых обращений клиентов и передачи сложных случаев мастеру.
+## Основные публичные проекты
 
-- FastAPI webhook и асинхронная обработка через Celery + Redis
-- PostgreSQL, SQLAlchemy и Alembic
-- GigaChat и поиск контекста в базе знаний через RAG
-- Redis + Lua rate limiting до постановки задач в очередь
-- маскирование персональных данных, TLS-верификация и health endpoints
-- Docker Compose, pytest, Ruff и GitHub Actions
+### [Retail Procurement API](https://github.com/bsekinaev/retail-procurement) — backend сервиса закупок
 
-### [Code Review Bot](https://github.com/bsekinaev/code-review-bot) — анализ Pull Request
+- Django REST Framework, PostgreSQL, JWT/OAuth2, API товаров, заказов и поставщиков.
+- Транзакционное оформление заказов с блокировками `select_for_update`.
+- Celery, Redis, Docker Compose, автоматические тесты и GitHub Actions.
 
-GitHub App для автоматизированного анализа изменённого Python-кода через Ruff и GigaChat.
+### [TATTOTOYOU](https://github.com/bsekinaev/tattotoyou) — Telegram AI-ассистент для студии
 
-- diff-aware анализ только изменённых строк
-- HMAC-проверка webhook'ов и GitHub App JWT
-- FastAPI, Celery, Redis, PostgreSQL и Alembic
-- graceful fallback на Ruff при недоступности AI
-- Docker Compose, тесты и CI
+- FastAPI webhook, PostgreSQL, SQLAlchemy, Alembic, Celery и Redis.
+- Обработка сообщений, RAG-поиск по базе знаний и интеграция с LLM.
+- Ограничение частоты запросов, тесты, Docker Compose и CI.
 
-### [Retail Procurement API](https://github.com/bsekinaev/retail-procurement) — автоматизация закупок
+### [CUDY Home Gateway](https://github.com/bsekinaev/cudy-home-gateway) — инфраструктурный проект для OpenWrt
 
-Дипломный backend-проект на Django/DRF для работы с каталогом, корзиной, заказами и поставщиками.
+- Control plane домашнего шлюза: health/alerts, CLI, диагностика и Telegram read-only UI.
+- Безопасные изменения с preflight/verification и контролем ошибок; проект не управляет сетевым data plane напрямую.
+- Отдельный установочный baseline HGDEPLOY2 прошёл owner-проверки на реальном устройстве в октябре 2026. Текущая дорожная карта и новые изменения не объявляются полноценным production-релизом v1.0.
 
-- JWT и OAuth2 через Google/GitHub
-- транзакционное оформление заказа через `transaction.atomic` и `select_for_update`
-- Celery-задачи для импорта YAML и уведомлений
-- Redis-кэширование каталога
-- pytest-django, Docker Compose и GitHub Actions
+## Технологии
 
-## Дополнительные проекты
-
-- [Org Structure API](https://github.com/bsekinaev/org-structure-api) — FastAPI API для подразделений и сотрудников с древовидной структурой
-- [Upscale Service](https://github.com/bsekinaev/upscale_service) — асинхронная обработка изображений через Celery и Redis
+**Backend:** Python, FastAPI, Django/DRF, SQLAlchemy, Pydantic, REST API, HTTP, asyncio  
+**Данные и фоновые процессы:** PostgreSQL, Django ORM, Alembic, Redis, Celery  
+**Качество и инфраструктура:** pytest, Ruff, Git, GitHub Actions, Docker Compose, Linux  
+**Интеграции:** Webhooks, Playwright, Telegram Bot API, OAuth2/JWT, GigaChat, RAG
 
 ## Контакты
 
 - Telegram: [@bsekinaev](https://t.me/bsekinaev)
 - Email: [bsekinaev@ya.ru](mailto:bsekinaev@ya.ru)
-- Резюме: [HH.ru](https://hh.ru/resume/f592f1daff0ca097cb0039ed1f464856526463)
+- [Резюме HH.ru](https://hh.ru/resume/f592f1daff0ca097cb0039ed1f464856526463)
+- [Habr Career](https://career.habr.com/bsekinaev)
+
+> Достижения по закрытой командной платформе описаны на уровне задач и подтверждённых проверок без публикации конфиденциальных данных.
