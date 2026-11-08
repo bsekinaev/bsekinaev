@@ -6,6 +6,7 @@
 
 Python · FastAPI · Django/DRF · PostgreSQL · Redis · Celery · Docker · pytest
 
+[![Портфолио](https://img.shields.io/badge/Сайт-bsekinaev.ru-445D77?style=flat-square)](https://bsekinaev.ru)
 [![Telegram](https://img.shields.io/badge/Telegram-@bsekinaev-0088cc?style=flat-square&logo=telegram)](https://t.me/bsekinaev)
 [![Email](https://img.shields.io/badge/Email-bsekinaev%40ya.ru-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:bsekinaev@ya.ru)
 [![HH.ru](https://img.shields.io/badge/Resume-HH.ru-E1011C?style=flat-square)](https://hh.ru/resume/f592f1daff0ca097cb0039ed1f464856526463)
@@ -46,6 +47,18 @@ B2B-платформа для управления репутацией и об�
 - FastAPI webhook, PostgreSQL, SQLAlchemy, Alembic, Celery и Redis.
 - Обработка сообщений, RAG-поиск по базе знаний и интеграция с LLM.
 - Ограничение частоты запросов, тесты, Docker Compose и CI.
+
+### [B2B Product Content Generator](https://github.com/bsekinaev/B2B_Product) — генерация карточек товаров с LLM
+
+- FastAPI, Pydantic и GigaChat: генерация черновиков из исходных характеристик измерительных приборов.
+- Проверки фактов и формата результата, детерминированный fallback, pytest и Ruff.
+- Тестовое задание; автоматическая публикация карточек и промышленное внедрение не заявляются.
+
+### [Code Review Bot](https://github.com/bsekinaev/code-review-bot) — учебный AI-ревьюер GitHub PR
+
+- Webhooks GitHub, FastAPI, Celery/Redis, PostgreSQL, Ruff и GigaChat.
+- Проверка изменённых строк и формирование отчётов для Pull Request.
+- Pet-проект без заявлений о production-эксплуатации.
 
 ### [CUDY Home Gateway](https://github.com/bsekinaev/cudy-home-gateway) — инфраструктурный проект для OpenWrt
 
